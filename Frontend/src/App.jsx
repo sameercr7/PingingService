@@ -10,7 +10,7 @@ function App() {
     const fetchStatuses = async () => {
       try {
         setCounter(x => x + 1);
-        const response = await axios.get('http://localhost:3000/trigger-health-check');
+        const response = await axios.get('https://pingingservice.onrender.com/trigger-health-check');
         const data = response.data;
         setStatuses(data);
       } catch (error) {
