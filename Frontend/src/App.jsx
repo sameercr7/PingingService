@@ -9,6 +9,7 @@ function App() {
   useEffect(() => {
     const fetchStatuses = async () => {
       try {
+      
         setCounter(x => x + 1);
         const response = await axios.get('https://pingingservice.onrender.com/trigger-health-check');
         const data = response.data;
