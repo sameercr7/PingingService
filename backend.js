@@ -22,8 +22,14 @@ const urls = [
   "https://pragati.iwrdup.com/actuator/health",
   "https://lmsupsdm.com/actuator/health",
   "http://dmsupsdm.com/actuator/health",
-  "https://water.iwrdup.com/iwrdup/login",
-  "https://jalshakti.iwrdup.com/minister/dashboard",
+  "https://water.iwrdup.com/actuator/health",
+  "https://jalshakti.iwrdup.com/actuator/health",
+  "https://kumbh.iwrdup.com/actuator/health",
+  "https://monitor.iwrdup.com/actuator/health",
+  "https://namami.iwrdup.com/actuator/health",
+
+
+
   // "http://178.238.227.191:7171/actuator/health",
 ];
 
