@@ -251,20 +251,21 @@ function makingResponse(status, url) {
   return { status, url };
 }
 
+
 // Function to send email notification
 function sendEmailNotification(url) {
   const mailOptions = {
-    from: process.env.GMAIL_USER,
-    to: process.env.NOTIFICATION_EMAIL,
-    subject: 'Health Check Alert',
-    text: `The following URL is DOWN: ${url}`
+    from: "no.reply.gccloud@gmail.com",
+    to: ["sameer.1923ec1111@kiet.edu","rahul@gccloudinfo.com","sameer@gccloudinfo.com"],
+    subject: "Server Down Email",
+    text: `The server at ${url} is down .`,
   };
 
-  transporter.sendMail(mailOptions, function(error, info) {
+  transporter.sendMail(mailOptions, function (error, info) {
     if (error) {
-      console.error(`Error sending email: ${error.message}`);
+      console.error("Error sending email:", error);
     } else {
-      console.log(`Email sent: ${info.response}`);
+      console.log("Email sent:", info.response);
     }
   });
 }
