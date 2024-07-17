@@ -303,7 +303,7 @@ app.get('/trigger-health-check', async (req, res) => {
 });
 
 // Interval in milliseconds (60 seconds)
-const interval = 60 * 1000;
+const interval = 5 * 60 * 1000;
 setInterval(async () => {
   const results = await checkHealthUrls();
   console.log('Health check results:', results);
