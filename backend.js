@@ -240,7 +240,7 @@ const urls = [
   "http://dmsupsdm.com/actuator/health",
   "https://water.iwrdup.com/actuator/health",
   "https://jalshakti.iwrdup.com/actuator/health",
-  "http://kumbh.iwrdup.com/actuator/health",
+  "http://mahakumbh.iwrdup.com/actuator/health",
   "http://monitor.iwrdup.com/actuator/health",
   "http://namami.iwrdup.com/actuator/health",
 
